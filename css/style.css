@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+}
+
+.numbers{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.number{
+    width: calc(100%/4);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 150%;
+
+}
+
+.number:hover{
+    background-color: gray;
+}
+
